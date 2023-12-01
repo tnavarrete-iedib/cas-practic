@@ -5,4 +5,4 @@ dades = {
     'poblacio': [ 923608, 94885, 147914, 11708]
 }
 df = pd.DataFrame(dades)
-print("Superfície total:", df['superficie'].sum(), "km2")
+print("Superfície total en Km2", df['superficie'].sum())
